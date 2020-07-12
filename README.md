@@ -1,6 +1,6 @@
 # Hi, I'm Alex 👋🏽 👨🏽‍💻
 
-<img style="float: left; margin-right: 25px; width: 150px;" src="./img/perfil.jpg">
+<img style="float: left; margin-right: 25px; width: 150px;" src="img/perfil.jpg">
 
 I'm **Senior Frontend Engineer** at *Eventbrite*. Enthusiast of web technologies: **Javacript, Node.js, Deno, React, Mongo, Rustlang 🦀**, etc. I like to write in my personal blog and also in twitter.
 
