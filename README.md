@@ -9,3 +9,6 @@ I'm **Senior Frontend Engineer** at *Eventbrite*. Enthusiast of web technologies
 - Sharing tips and setup pics on [Instagram](https://www.instagram.com/73nko/) 📸
 - Sharing updates on [Twitter](https://twitter.com/73Nko) 🐦
 - And my [Personal Site](https://73nko.es/) 🌍
+
+#### Some stats!
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=73nko&show_icons=true&theme=radical)
