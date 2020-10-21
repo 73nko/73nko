@@ -15,7 +15,7 @@ I'm **Senior Frontend Engineer** at *Eventbrite*. Enthusiast of web technologies
       <img align="center" style="padding=0;" src="https://github-readme-stats.vercel.app/api/?username=73nko&show_icons=true&theme=radical&count_private=true" />
     </td>
     <td align="center" style="padding=0;width=50%;">
-      <img align="center" style="padding=0;" src="https://github-readme-stats.quantumlytangled.vercel.app/api/top-langs/?username=73nko&layout=compact&show_icons=true&theme=radical&count_private=true&extra=73nko/messages-actix" />
+      <img align="center" style="padding=0;" src="https://github-readme-stats.quantumlytangled.vercel.app/api/top-langs/?username=73nko&layout=compact&show_icons=true&theme=radical&count_private=true" />
     </td>
   </tr>
 </table>
