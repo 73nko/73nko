@@ -1,5 +1,7 @@
 # Hi, I'm Alex 👋🏽 👨🏽‍💻
 
+<img src="https://komarev.com/ghpvc/?username=73nko" alt="73nko" />
+
 I'm **Senior Frontend Engineer** at *Eventbrite*. Enthusiast of web technologies: **Javacript, Node.js, Deno, React, Mongo, Rustlang 🦀**, etc. I like to write in my personal blog and also in twitter.
 
 ## Get in touch around the web 🌍
