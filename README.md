@@ -3,7 +3,9 @@
 
 <p align="left"> <a href="https://twitter.com/73nko" target="blank"><img src="https://img.shields.io/twitter/follow/73nko?logo=twitter&style=for-the-badge" alt="73nko" /></a> </p>
 
-- 🔭 I’m currently working on [Eventbrite](https://www.eventbrite.com/)
+- 🔭 I’m currently working at [Bundle](https://www.bundlepayments.com/)
+
+- Ex Sr. Software Engineer at [Eventbrite](https://eventbrite.com)
 
 - 🌱 I’m currently learning **Elixir 💧 and Rust 🦀**
 
