@@ -3,19 +3,19 @@
 
 <p align="left"> <a href="https://twitter.com/73nko" target="blank"><img src="https://img.shields.io/twitter/follow/73nko?logo=twitter&style=for-the-badge" alt="73nko" /></a> </p>
 
-- 🔭 I’m currently working at [Bundle](https://www.bundlepayments.com/)
+- 🔭  I’m currently working at [Bundle](https://www.bundlepayments.com/)
 
-- Ex Sr. Software Engineer at [Eventbrite](https://eventbrite.com)
+- 👨‍💻  Ex Sr. Software Engineer at [Eventbrite](https://eventbrite.com)
 
-- 🌱 I’m currently learning **Elixir 💧 and Rust 🦀**
+- 🌱  I’m currently learning **Elixir 💧 and Rust 🦀**
 
-- 📝 I regularly write articles on [https://73nko.es/](https://73nko.es/)
+- 📝  I regularly write articles on [https://73nko.es/](https://73nko.es/)
 
-- 💬 Ask me about **React, JavaScript and Node**
+- 💬  Ask me about **React, JavaScript and Node**
 
-- 📫 How to reach me **apramos89@gmail.com or @73nko in twitter.**
+- 📫  How to reach me **apramos89@gmail.com or @73nko in twitter.**
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/alejandroperezramos/](https://www.linkedin.com/in/alejandroperezramos/)
+- 📄  Know about my experiences [https://www.linkedin.com/in/alejandroperezramos/](https://www.linkedin.com/in/alejandroperezramos/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
