@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://twitter.com/73nko" target="blank"><img src="https://img.shields.io/twitter/follow/73nko?logo=twitter&style=for-the-badge" alt="73nko" /></a> </p>
 
-- 🔭  I’m currently working at [Bundle](https://www.bundlepayments.com/)
+- 🔭  I’m currently working at [Bundle](https://www.bundlepayments.com/) ([YC S20](https://www.ycombinator.com/companies/bundle))
 
 - 👨‍💻  Ex Sr. Software Engineer at [Eventbrite](https://eventbrite.com)
 
