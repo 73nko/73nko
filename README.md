@@ -7,7 +7,7 @@
 
 - 👨‍💻  Ex Sr. Software Engineer at [Eventbrite](https://eventbrite.com)
 
-- 🌱  I’m currently learning ** Rust 🦀**
+- 🌱  I’m currently learning **Rust 🦀**
 
 - 📝  I regularly write articles on [https://73nko.es/](https://73nko.es/)
 
