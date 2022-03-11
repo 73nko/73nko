@@ -25,13 +25,6 @@
 <a href="https://stackoverflow.com/users/73nko" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="73nko" height="30" width="40" /></a>
 </p>
 
-<table>
-  <tr>
-    <td align="center" style="padding=0;width=50%;">
-      <img align="center" style="padding=0;" src="https://github-readme-stats.vercel.app/api/?username=73nko&show_icons=true&theme=radical&title_color=4F8CC9&text_color=9f9f9f&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true" />
-    </td>
-    <td align="center" style="padding=0;width=50%;">
-      <img align="center" style="padding=0;" src="https://github-readme-stats.quantumlytangled.vercel.app/api/top-langs/?username=73nko&layout=compact&show_icons=true&theme=radical&title_color=4F8CC9&text_color=9f9f9f&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true" />
-    </td>
-  </tr>
-</table>
+![Adrian's GitHub stats](https://github-readme-stats.vercel.app/api?username=73nko&show_icons=true&theme=material-palenight)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=73nko&theme=material-palenight&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+
