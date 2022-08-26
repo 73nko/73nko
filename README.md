@@ -15,7 +15,7 @@
 <p align="center" style="display: flex; justify-content: center; gap: 1rem;">
     <a href="mailto:work@alejandroperez.dev">
     <img align="left" alt="Alejandro Pérez Email" width="27px" src="https://img.icons8.com/doodle/48/000000/gmail.png"/></a>
-    <a target="_blank" href="https://www.linkedin.com/in/alejandroperez">
+    <a target="_blank" href="https://www.linkedin.com/in/alejandroperezramos">
     <img align="left" alt="Alejandro Pérez Linkedin" width="27px" src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png" />
     </a>
     <a href="https://discordapp.com/users/Alex%20Pérez#4916">
