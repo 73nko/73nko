@@ -1,30 +1,47 @@
-<h1 align="center">Hi 👋, I'm 73nko</h1>
-<h3 align="center">A Enthusiast of web technologies: Javacript, Node.js, Deno, React, Mongo, Rustlang 🦀, etc. I like to write in my personal blog and also in twitter.</h3>
+<h1 align="center">Hi 👋, I'm Alex</h1>
+<div>
+<img class="profile" align="left" src="https://github.com/73nko/73nko/blob/master/img/profile.png?raw=true" alt="Github profile avatar" height="250px"/>
 
-<p align="left"> <a href="https://twitter.com/73nko" target="blank"><img src="https://img.shields.io/twitter/follow/73nko?logo=twitter&style=for-the-badge" alt="73nko" /></a> </p>
-
-- 🔭  I’m currently working at [Awtomatic](https://www.bundlepayments.com/) ([YC S20](https://www.ycombinator.com/companies/bundle))
+- 🔭  I’m currently working at [Awtomic](https://www.awtomic.com/) ([YC S20](https://www.ycombinator.com/companies/bundle))
 
 - 👨‍💻  Ex Sr. Software Engineer at [Eventbrite](https://eventbrite.com)
 
-- 🌱  I’m currently learning **Rust 🦀**
+- 🌱  I’m currently learning **Rust 🦀** and Crafting interpreters ⚙️
+</div>
+<br /><br /><br /><br />
 
-- 📝  I regularly write articles on [https://73nko.es/](https://73nko.es/)
-
-- 💬  Ask me about **React, JavaScript and Node**
-
-- 📫  How to reach me **apramos89@gmail.com or @73nko in twitter.**
-
-- 📄  Know about my experiences [https://www.linkedin.com/in/alejandroperezramos/](https://www.linkedin.com/in/alejandroperezramos/)
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://codepen.io/73nko" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg" alt="73nko" height="30" width="40" /></a>
-<a href="https://twitter.com/73nko" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="73nko" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/alejandroperezramos" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="alejandroperezramos" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/73nko" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="73nko" height="30" width="40" /></a>
+<div align="center" style="margin: 2rem auto;">
+<p align="center" style="display: flex; justify-content: center; gap: 1rem;">
+    <a href="mailto:work@alejandroperez.dev">
+    <img align="left" alt="Alejandro Pérez Email" width="27px" src="https://img.icons8.com/doodle/48/000000/gmail.png"/></a>
+    <a target="_blank" href="https://www.linkedin.com/in/alejandroperez">
+    <img align="left" alt="Alejandro Pérez Linkedin" width="27px" src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png" />
+    </a>
+    <a href="https://discordapp.com/users/Alex%20Pérez#4916">
+    <img align="left" alt="Abhishek's Discord" width="27px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/discord.svg" />
+    </a>
+    <a href="https://twitter.com/73nko">
+    <img align="left" alt="Alex Pérez | Twitter" width="27px" src="https://img.icons8.com/cotton/64/000000/twitter.png" />
+    </a>
 </p>
+</div>
+<br /><br /><br />
 
- ![73Nko's GitHub stats](https://github-readme-stats.vercel.app/api?username=73nko&show_icons=true&theme=material-palenight)
- [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=73nko&theme=material-palenight&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+<div align="center">
+<h3 align="center">A Enthusiast of web technologies: Javacript, Node.js, React, Mongo, Rustlang 🦀, etc. I like to write in my personal blog and also in twitter.</h3>
+</div>
+<br /><br />
 
+<div align="center" >
+<a  href="https://github.com/73nko">
+<img src="https://raw.githubusercontent.com/73nko/github-profile-summary-cards/master/profile-summary-card-output/nord_dark/3-stats.svg" width="32.5%">
+<img src="https://raw.githubusercontent.com/73nko/github-profile-summary-cards/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg" width="32.5%">
+<img src="https://raw.githubusercontent.com/73nko/github-profile-summary-cards/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg" width="32.5%">
+</a>
+</div>
+
+<br /><br />
+
+<div align="center" style="text-align: center; margin: 2rem auto;">
+<img align="center" src="https://raw.githubusercontent.com/73nko/github-profile-summary-cards/master/profile-summary-card-output/nord_dark/0-profile-details.svg" >
+</div>
