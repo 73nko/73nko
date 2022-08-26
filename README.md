@@ -26,12 +26,12 @@
     </a>
 </p>
 </div>
-<br /><br /><br />
+<br /><br />
 <div align="center">
 <h3 align="center">A Enthusiast of web technologies: Javacript, Node.js, React, Mongo, Rustlang 🦀, etc. I like to write in my personal blog and also in twitter.</h3>
 </div>
 
-<br /><br />
+<br />
 
 <div align="center" >
 <a  href="https://github.com/73nko">
