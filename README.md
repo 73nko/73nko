@@ -1,9 +1,5 @@
 <h1 align="center">Hi 👋, I'm Alex</h1>
 
-<div align="center">
-<h3 align="center">A Enthusiast of web technologies: Javacript, Node.js, React, Mongo, Rustlang 🦀, etc. I like to write in my personal blog and also in twitter.</h3>
-</div>
-
 <div>
 <img class="profile" align="left" src="https://github.com/73nko/73nko/blob/master/img/profile.png?raw=true" alt="Github profile avatar" height="250px"/>
 
@@ -31,6 +27,10 @@
 </p>
 </div>
 <br /><br /><br />
+<div align="center">
+<h3 align="center">A Enthusiast of web technologies: Javacript, Node.js, React, Mongo, Rustlang 🦀, etc. I like to write in my personal blog and also in twitter.</h3>
+</div>
+
 <br /><br />
 
 <div align="center" >
@@ -41,7 +41,7 @@
 </a>
 </div>
 
-<br /><br />
+<br />
 
 <div align="center" style="text-align: center; margin: 2rem auto;">
 <img align="center" src="https://raw.githubusercontent.com/73nko/github-profile-summary-cards/master/profile-summary-card-output/nord_dark/0-profile-details.svg" >
