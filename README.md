@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Alex</h1>
 
 <div>
-<img class="profile" align="left" src="https://github.com/73nko/73nko/blob/master/img/profile.png?raw=true" alt="Github profile avatar" height="250px"/>
+<img class="profile" align="left" src="https://github.com/73nko/73nko/blob/master/img/profile-alex.png?raw=true" alt="Github profile avatar" height="250px"/>
 
 - 🔭  I’m currently working at [Awtomic](https://www.awtomic.com/) ([YC S20](https://www.ycombinator.com/companies/bundle))
 
