@@ -19,7 +19,7 @@
     <img align="left" alt="Alejandro Pérez Linkedin" width="27px" src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png" />
     </a>
     <a href="https://discordapp.com/users/Alex%20Pérez#4916">
-    <img align="left" alt="Abhishek's Discord" width="27px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/discord.svg" />
+    <img align="left" alt="Abhishek's Discord" width="27px" src="https://cdn.simpleicons.org/discord" />
     </a>
     <a href="https://twitter.com/73nko">
     <img align="left" alt="Alex Pérez | Twitter" width="27px" src="https://img.icons8.com/cotton/64/000000/twitter.png" />
