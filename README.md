@@ -22,7 +22,7 @@
     <img align="left" alt="Abhishek's Discord" width="27px" src="https://cdn.simpleicons.org/discord" />
     </a>
     <a href="https://twitter.com/73nko">
-    <img align="left" alt="Alex Pérez | Twitter" width="27px" src="https://img.icons8.com/cotton/64/000000/twitter.png" />
+    <img align="left" alt="Alex Pérez | Twitter" width="27px" src="https://img.icons8.com/pulsar-color/64/000000/twitterx.png" />
     </a>
 </p>
 </div>
