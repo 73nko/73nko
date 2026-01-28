@@ -6,8 +6,6 @@
 - 🔭  I’m currently working at [Awtomic](https://www.awtomic.com/) ([YC S20](https://www.ycombinator.com/companies/bundle))
 
 - 👨‍💻  Ex Sr. Software Engineer at [Eventbrite](https://eventbrite.com)
-
-- 🌱  I’m currently learning **Rust 🦀** and Crafting interpreters ⚙️
 </div>
 <br /><br /><br /><br />
 
