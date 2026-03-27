@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 120" width="840">
+  <defs>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="1" y="1" width="838" height="118" rx="10" ry="10" fill="#0d1117"/>
+
+  <!-- Gradient border -->
+  <rect x="1" y="1" width="838" height="118" rx="10" ry="10" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+
+  <!-- Rocket icon -->
+  <g transform="translate(24, 32)">
+    <path d="M28 4C28 4 22 10 18 18C15.5 14.5 12 12 12 12C12 12 8 16 6 22L10 24C10 24 8 30 8 36L14 30C16 31 18 31 20 30L20 36L28 28C28 28 30 22 28 14L32 12C32 12 30 6 28 4Z" fill="#e6edf3" opacity="0.9"/>
+    <circle cx="24" cy="14" r="3" fill="#0d1117"/>
+    <path d="M8 36L4 40L6 34Z" fill="#8b949e" opacity="0.7"/>
+    <path d="M4 40L0 44L2 38Z" fill="#8b949e" opacity="0.5"/>
+  </g>
+
+  <!-- Label: CURRENTLY BUILDING -->
+  <text x="80" y="38" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2">CURRENTLY BUILDING</text>
+
+  <!-- Project name: Awtomic -->
+  <text x="80" y="62" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="bold">Awtomic</text>
+
+  <!-- Description -->
+  <text x="80" y="84" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">Subscription platform for Shopify brands</text>
+
+  <!-- YC S20 pill badge -->
+  <rect x="680" y="46" width="60" height="22" rx="11" ry="11" fill="#f59e0b" fill-opacity="0.15"/>
+  <text x="710" y="61" fill="#f59e0b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle">YC S20</text>
+</svg>
