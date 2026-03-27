@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 840 480" width="840">
+  <defs>
+    <style>
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes shimmer {
+        0% { stroke-dashoffset: 2640; }
+        100% { stroke-dashoffset: 0; }
+      }
+    </style>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="diamondGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <clipPath id="profileClip">
+      <circle cx="84" cy="156" r="60"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect x="1" y="1" width="838" height="478" rx="12" ry="12" fill="#0d1117"/>
+
+  <!-- Gradient border with shimmer -->
+  <rect x="1" y="1" width="838" height="478" rx="12" ry="12"
+        fill="none" stroke="url(#borderGrad)" stroke-width="2"
+        stroke-dasharray="60 20" stroke-dashoffset="0"
+        style="animation: shimmer 3s linear infinite;"/>
+
+  <!-- Solid border underneath for continuity -->
+  <rect x="1" y="1" width="838" height="478" rx="12" ry="12"
+        fill="none" stroke="url(#borderGrad)" stroke-width="1" opacity="0.3"/>
+
+  <!-- Top bar -->
+  <!-- Figma diamond icon -->
+  <g transform="translate(24, 14)">
+    <path d="M10 0L20 10L10 20L0 10Z" fill="url(#diamondGrad)"/>
+  </g>
+
+  <!-- Component label -->
+  <text x="52" y="29" fill="#8b949e" font-family="monospace" font-size="12">Component</text>
+
+  <!-- Component name -->
+  <text x="130" y="29" fill="#e6edf3" font-family="monospace" font-size="16" font-weight="bold">&lt;AlexPerez /&gt;</text>
+
+  <!-- Blinking cursor -->
+  <rect x="292" y="16" width="2" height="18" fill="#e6edf3"
+        style="animation: blink 800ms steps(1) infinite;"/>
+
+  <!-- Divider -->
+  <line x1="0" y1="48" x2="840" y2="48" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Left panel -->
+  <!-- Profile image clipped to circle -->
+  <image x="24" y="96" width="120" height="120"
+         href="https://github.com/73nko/73nko/blob/master/img/profile-alex.png?raw=true"
+         clip-path="url(#profileClip)" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Circle outline for profile -->
+  <circle cx="84" cy="156" r="60" fill="none" stroke="#21262d" stroke-width="2"/>
+
+  <!-- Name -->
+  <text x="24" y="248" fill="#e6edf3" font-family="sans-serif" font-size="20" font-weight="bold">Alex P&#233;rez</text>
+
+  <!-- Title -->
+  <text x="24" y="272" fill="#8b949e" font-family="sans-serif" font-size="14">Senior Software Engineer</text>
+
+  <!-- Right panel -->
+  <!-- Props label -->
+  <text x="340" y="92" fill="#8b949e" font-family="monospace" font-size="12">Props</text>
+
+  <!-- Prop: company -->
+  <text x="340" y="130" font-family="monospace" font-size="13">
+    <tspan fill="#7ee787">company</tspan>
+    <tspan fill="#8b949e">: </tspan>
+    <tspan fill="#e6edf3">"Awtomic (YC S20)"</tspan>
+  </text>
+
+  <!-- Prop: prev -->
+  <text x="340" y="165" font-family="monospace" font-size="13">
+    <tspan fill="#7ee787">prev</tspan>
+    <tspan fill="#8b949e">: </tspan>
+    <tspan fill="#e6edf3">"Eventbrite"</tspan>
+  </text>
+
+  <!-- Prop: stack -->
+  <text x="340" y="200" font-family="monospace" font-size="13">
+    <tspan fill="#7ee787">stack</tspan>
+    <tspan fill="#8b949e">: </tspan>
+    <tspan fill="#e6edf3">["TypeScript", "React", "Rust"]</tspan>
+  </text>
+
+  <!-- Bottom bar -->
+  <line x1="0" y1="430" x2="840" y2="430" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Social icons centered at bottom -->
+  <!-- Email envelope icon -->
+  <g transform="translate(370, 444)" fill="none" stroke="#8b949e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="20" height="16" rx="2"/>
+    <path d="M0 0L10 9L20 0"/>
+  </g>
+
+  <!-- LinkedIn icon -->
+  <g transform="translate(410, 444)" fill="#8b949e">
+    <path d="M4.5 2.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM1.5 6h3v10h-3zM7.5 6h3v1.4c.5-.9 1.7-1.6 3-1.6 3.2 0 3.5 2.1 3.5 4.8V16h-3v-4.8c0-1.1 0-2.6-1.6-2.6s-1.9 1.2-1.9 2.5V16h-3z"/>
+  </g>
+
+  <!-- X/Twitter icon -->
+  <g transform="translate(450, 444)" fill="#8b949e">
+    <path d="M1 1l7.5 9L1 18h1.7l6.5-7 5.3 7H19L11.2 8.5 18 1h-1.7l-5.8 6.3L5.5 1zm2.3 1.2h2.6l10.8 14.6h-2.6z"/>
+  </g>
+</svg>
