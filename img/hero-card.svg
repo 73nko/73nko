@@ -59,7 +59,7 @@
   <!-- Left panel -->
   <!-- Profile image clipped to circle -->
   <image x="24" y="96" width="120" height="120"
-         href="https://github.com/73nko/73nko/blob/master/img/profile-alex.png?raw=true"
+         href="https://raw.githubusercontent.com/73nko/73nko/master/img/profile-alex.png"
          clip-path="url(#profileClip)" preserveAspectRatio="xMidYMid slice"/>
 
   <!-- Circle outline for profile -->
