@@ -5,18 +5,6 @@
 <br />
 
 <div align="center">
-  <img src="./img/currently-building.svg" alt="Currently building Awtomic" width="840" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="./img/tech-stack.svg" alt="Tech Stack" width="840" />
-</div>
-
-<br />
-
-<div align="center">
   <a href="https://github.com/73nko">
     <img src="https://raw.githubusercontent.com/73nko/github-profile-summary-cards/master/profile-summary-card-output/github_dark/3-stats.svg" width="32.5%" />
     <img src="https://raw.githubusercontent.com/73nko/github-profile-summary-cards/master/profile-summary-card-output/github_dark/1-repos-per-language.svg" width="32.5%" />
