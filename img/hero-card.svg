@@ -1,118 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 340" width="840">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 280" width="840">
   <defs>
-    <style>
-      @keyframes blink {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
-      }
-      @keyframes shimmer {
-        0% { stroke-dashoffset: 2360; }
-        100% { stroke-dashoffset: 0; }
-      }
-    </style>
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8b5cf6"/>
-      <stop offset="50%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#06b6d4"/>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB8D5"/>
+      <stop offset="30%" stop-color="#FF3D8A"/>
+      <stop offset="55%" stop-color="#FF8A3D"/>
+      <stop offset="95%" stop-color="#7FE0EB"/>
     </linearGradient>
-    <linearGradient id="diamondGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#3b82f6"/>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3D8A"/>
+      <stop offset="50%" stop-color="#FF8A3D"/>
+      <stop offset="100%" stop-color="#7FE0EB"/>
     </linearGradient>
-    <clipPath id="profileClip">
-      <circle cx="84" cy="156" r="60"/>
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="840" height="280" rx="14" ry="14"/>
     </clipPath>
   </defs>
 
   <!-- Background -->
-  <rect x="1" y="1" width="838" height="338" rx="12" ry="12" fill="#0d1117"/>
+  <rect x="0" y="0" width="840" height="280" rx="14" ry="14" fill="#1A0A28"/>
 
-  <!-- Gradient border with shimmer -->
-  <rect x="1" y="1" width="838" height="338" rx="12" ry="12"
-        fill="none" stroke="url(#borderGrad)" stroke-width="2"
-        stroke-dasharray="60 20" stroke-dashoffset="0"
-        style="animation: shimmer 3s linear infinite;"/>
+  <!-- Border -->
+  <rect x="0.5" y="0.5" width="839" height="279" rx="14" ry="14"
+        fill="none" stroke="#FFC6A0" stroke-opacity="0.14" stroke-width="1"/>
 
-  <!-- Solid border underneath for continuity -->
-  <rect x="1" y="1" width="838" height="338" rx="12" ry="12"
-        fill="none" stroke="url(#borderGrad)" stroke-width="1" opacity="0.3"/>
+  <!-- Top accent stripe (3px, clipped to card radius) -->
+  <rect x="0" y="0" width="840" height="3" fill="url(#accentGrad)"
+        clip-path="url(#cardClip)"/>
 
-  <!-- Top bar -->
-  <!-- Figma diamond icon -->
-  <g transform="translate(24, 14)">
-    <path d="M10 0L20 10L10 20L0 10Z" fill="url(#diamondGrad)"/>
-  </g>
+  <!-- Section number -->
+  <text x="800" y="40" fill="#FF3D8A"
+        font-family="'JetBrains Mono','SF Mono','Cascadia Code',monospace"
+        font-size="11" font-weight="500" letter-spacing="2" text-anchor="end">01</text>
 
-  <!-- Component label -->
-  <text x="52" y="29" fill="#8b949e" font-family="monospace" font-size="12">Component</text>
-
-  <!-- Component name -->
-  <text x="130" y="29" fill="#e6edf3" font-family="monospace" font-size="16" font-weight="bold">&lt;AlexPerez /&gt;</text>
-
-  <!-- Blinking cursor -->
-  <rect x="292" y="16" width="2" height="18" fill="#e6edf3"
-        style="animation: blink 800ms steps(1) infinite;"/>
-
-  <!-- Divider -->
-  <line x1="0" y1="48" x2="840" y2="48" stroke="#21262d" stroke-width="1"/>
-
-  <!-- Left panel -->
-  <!-- Profile image clipped to circle -->
-  <image x="24" y="96" width="120" height="120"
-         href="https://raw.githubusercontent.com/73nko/73nko/master/img/profile-alex.png"
-         clip-path="url(#profileClip)" preserveAspectRatio="xMidYMid slice"/>
-
-  <!-- Circle outline for profile -->
-  <circle cx="84" cy="156" r="60" fill="none" stroke="#21262d" stroke-width="2"/>
+  <!-- Eyebrow -->
+  <text x="40" y="44" fill="#7FE0EB"
+        font-family="'JetBrains Mono','SF Mono','Cascadia Code',monospace"
+        font-size="11" font-weight="500" letter-spacing="2">SENIOR SOFTWARE ENGINEER</text>
 
   <!-- Name -->
-  <text x="24" y="248" fill="#e6edf3" font-family="sans-serif" font-size="20" font-weight="bold">Alex P&#233;rez</text>
+  <text x="40" y="96" fill="url(#titleGrad)"
+        font-family="'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif"
+        font-size="40" font-weight="800" letter-spacing="-1">Alex P&#233;rez</text>
 
-  <!-- Title -->
-  <text x="24" y="272" fill="#8b949e" font-family="sans-serif" font-size="14">Senior Software Engineer</text>
-
-  <!-- Right panel -->
-  <!-- Props label -->
-  <text x="340" y="92" fill="#8b949e" font-family="monospace" font-size="12">Props</text>
-
-  <!-- Prop: company -->
-  <text x="340" y="130" font-family="monospace" font-size="13">
-    <tspan fill="#7ee787">company</tspan>
-    <tspan fill="#8b949e">: </tspan>
-    <tspan fill="#e6edf3">"Awtomic (YC S20)"</tspan>
+  <!-- Tagline -->
+  <text x="40" y="132"
+        font-family="'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif"
+        font-size="14" fill="#FFC6A0" opacity="0.88">
+    <tspan>Building subscriptions at </tspan>
+    <tspan fill="#FFB8D5" font-weight="600">Awtomic</tspan>
+    <tspan> (YC S20) &#183; Previously </tspan>
+    <tspan fill="#FFB8D5" font-weight="600">Eventbrite</tspan>
   </text>
 
-  <!-- Prop: prev -->
-  <text x="340" y="165" font-family="monospace" font-size="13">
-    <tspan fill="#7ee787">prev</tspan>
-    <tspan fill="#8b949e">: </tspan>
-    <tspan fill="#e6edf3">"Eventbrite"</tspan>
-  </text>
+  <!-- Tech stack pills -->
+  <!-- TypeScript -->
+  <rect x="40" y="170" width="90" height="26" rx="13" fill="#7FE0EB" fill-opacity="0.08"
+        stroke="#7FE0EB" stroke-opacity="0.22" stroke-width="1"/>
+  <text x="85" y="187" text-anchor="middle" fill="#7FE0EB"
+        font-family="'JetBrains Mono','SF Mono','Cascadia Code',monospace"
+        font-size="11">TypeScript</text>
 
-  <!-- Prop: stack -->
-  <text x="340" y="200" font-family="monospace" font-size="13">
-    <tspan fill="#7ee787">stack</tspan>
-    <tspan fill="#8b949e">: </tspan>
-    <tspan fill="#e6edf3">["TypeScript", "React", "Rust"]</tspan>
-  </text>
+  <!-- React -->
+  <rect x="140" y="170" width="60" height="26" rx="13" fill="#7FE0EB" fill-opacity="0.08"
+        stroke="#7FE0EB" stroke-opacity="0.22" stroke-width="1"/>
+  <text x="170" y="187" text-anchor="middle" fill="#7FE0EB"
+        font-family="'JetBrains Mono','SF Mono','Cascadia Code',monospace"
+        font-size="11">React</text>
 
-  <!-- Bottom bar -->
-  <line x1="0" y1="290" x2="840" y2="290" stroke="#21262d" stroke-width="1"/>
+  <!-- Rust -->
+  <rect x="210" y="170" width="50" height="26" rx="13" fill="#7FE0EB" fill-opacity="0.08"
+        stroke="#7FE0EB" stroke-opacity="0.22" stroke-width="1"/>
+  <text x="235" y="187" text-anchor="middle" fill="#7FE0EB"
+        font-family="'JetBrains Mono','SF Mono','Cascadia Code',monospace"
+        font-size="11">Rust</text>
 
-  <!-- Social icons centered at bottom -->
-  <!-- Email envelope icon -->
-  <g transform="translate(370, 304)" fill="none" stroke="#8b949e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="0" y="0" width="20" height="16" rx="2"/>
-    <path d="M0 0L10 9L20 0"/>
+  <!-- Next.js -->
+  <rect x="270" y="170" width="65" height="26" rx="13" fill="#7FE0EB" fill-opacity="0.08"
+        stroke="#7FE0EB" stroke-opacity="0.22" stroke-width="1"/>
+  <text x="302" y="187" text-anchor="middle" fill="#7FE0EB"
+        font-family="'JetBrains Mono','SF Mono','Cascadia Code',monospace"
+        font-size="11">Next.js</text>
+
+  <!-- Node.js -->
+  <rect x="345" y="170" width="65" height="26" rx="13" fill="#7FE0EB" fill-opacity="0.08"
+        stroke="#7FE0EB" stroke-opacity="0.22" stroke-width="1"/>
+  <text x="377" y="187" text-anchor="middle" fill="#7FE0EB"
+        font-family="'JetBrains Mono','SF Mono','Cascadia Code',monospace"
+        font-size="11">Node.js</text>
+
+  <!-- GraphQL -->
+  <rect x="420" y="170" width="72" height="26" rx="13" fill="#7FE0EB" fill-opacity="0.08"
+        stroke="#7FE0EB" stroke-opacity="0.22" stroke-width="1"/>
+  <text x="456" y="187" text-anchor="middle" fill="#7FE0EB"
+        font-family="'JetBrains Mono','SF Mono','Cascadia Code',monospace"
+        font-size="11">GraphQL</text>
+
+  <!-- Social icons (bottom-right) -->
+  <!-- Email envelope -->
+  <g transform="translate(720, 232)" fill="none" stroke="#FFC6A0"
+     stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="18" height="14" rx="2"/>
+    <path d="M0 0L9 7L18 0"/>
   </g>
 
-  <!-- LinkedIn icon -->
-  <g transform="translate(410, 304)" fill="#8b949e">
-    <path d="M4.5 2.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM1.5 6h3v10h-3zM7.5 6h3v1.4c.5-.9 1.7-1.6 3-1.6 3.2 0 3.5 2.1 3.5 4.8V16h-3v-4.8c0-1.1 0-2.6-1.6-2.6s-1.9 1.2-1.9 2.5V16h-3z"/>
+  <!-- LinkedIn -->
+  <g transform="translate(750, 232)" fill="#FFC6A0" fill-opacity="0.6">
+    <path d="M4 2a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM1 5h3v9h-3zM7 5h2.5v1.2c.5-.8 1.5-1.4 2.7-1.4 2.8 0 3.3 1.8 3.3 4.2V14h-3v-4.3c0-1 0-2.3-1.4-2.3s-1.7 1.1-1.7 2.2V14H7z"/>
   </g>
 
-  <!-- X/Twitter icon -->
-  <g transform="translate(450, 304)" fill="#8b949e">
-    <path d="M1 1l7.5 9L1 18h1.7l6.5-7 5.3 7H19L11.2 8.5 18 1h-1.7l-5.8 6.3L5.5 1zm2.3 1.2h2.6l10.8 14.6h-2.6z"/>
+  <!-- X/Twitter -->
+  <g transform="translate(782, 232)" fill="#FFC6A0" fill-opacity="0.6">
+    <path d="M1 1l6.5 8L1 16h1.5l5.5-6 4.5 6H16L9.5 7.5 15.5 1H14L9 6.5 5 1zm2 1.2h2.2l9.2 12.6h-2.2z"/>
   </g>
 </svg>
